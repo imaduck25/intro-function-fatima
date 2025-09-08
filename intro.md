@@ -81,3 +81,4 @@ right()
 1. Let's draw 1 rectangle witha width of 100px and a length of 125px.
 2. Draw 1 Triangle with 3 equal sides, length 90px. 
    
+   f
