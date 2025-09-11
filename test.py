@@ -5,6 +5,12 @@ t = Turtle()
 
 t.shape('turtle')
 
-t.forward(200)
+def equal(x):
+    t.forward(x)
+    t.left(120)
+    t.forward(x)
+    t.left(120)
+    t.forward(x)
+equal(200) 
 
-turtle.done()
+turtle.done
