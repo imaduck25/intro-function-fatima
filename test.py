@@ -5,10 +5,9 @@ t = Turtle()
 t.speed('fastest')
 
 def square(x): 
-    for i in range(60):
-        for i in range(4):
-            t.forward(x)
-            t.left(90)
+    for i in range(4):
+        t.forward(x)
+        t.left(90)
 square(200)
 
 """ 
@@ -72,11 +71,12 @@ def many_stars():
 many_stars() """
 
 def addSquares(iRange):
-    length = 25
-    for i in range(iRange):
-        square(length, 90)
-        length += 25
-    t.right(5)
-addSquares(5)
+    length = 5
+    for i in range(60):
+        for i in range(1):
+            square(length)
+        t.right(5)
+        length = length + 5
+addSquares(iRange=60)
 
 turtle.done
